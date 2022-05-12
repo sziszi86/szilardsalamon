@@ -1,0 +1,6 @@
+// Global icons
+*[class*='icon-'] {
+  &.icon-pin-green {
+    @include icon('icons/icon-pin-green.svg');
+  }
+}
