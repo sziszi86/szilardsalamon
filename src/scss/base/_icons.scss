@@ -1,6 +1,36 @@
 // Global icons
 *[class*='icon-'] {
-  &.icon-pin-green {
-    @include icon('icons/icon-pin-green.svg');
+  &.icon-facebook {
+    @include icon('icons/facebook.svg');
+  }
+  &.icon-linkedin {
+    @include icon('icons/linkedin.svg');
+  }
+  &.icon-phone {
+    @include icon('icons/phone.svg');
+  }
+  &.icon-email {
+    @include icon('icons/email.svg');
+  }
+  &.icon-location {
+    @include icon('icons/location.svg');
+  }
+  &.icon-calendar {
+    @include icon('icons/calendar.svg');
+  }
+  &.icon-download {
+    @include icon('icons/download.svg');
+  }
+  &.icon-about {
+    @include icon('icons/about.svg');
+  }
+  &.icon-resume {
+    @include icon('icons/resume.svg');
+  }
+  &.icon-works {
+    @include icon('icons/works.svg');
+  }
+  &.icon-contact {
+    @include icon('icons/contact.svg');
   }
 }

@@ -2,11 +2,12 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SlideContactComponent } from './components/slide-contact/slide-contact.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent],
+  declarations: [HeaderComponent, FooterComponent, SlideContactComponent],
   imports: [CommonModule],
-  exports: [HeaderComponent, FooterComponent],
+  exports: [HeaderComponent, FooterComponent, SlideContactComponent],
 })
 export class CoreModule {
   constructor(@Optional() @SkipSelf() coreModule: CoreModule) {
