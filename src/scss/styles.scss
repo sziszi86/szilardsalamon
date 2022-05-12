@@ -1,9 +1,14 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
+@import 'abstracts/helper';
 
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/icons';
+@import 'base/fonts';
 
 @import 'layout/wrapper';
 
