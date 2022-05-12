@@ -2,7 +2,8 @@
 $global-wrapper-width: 1750px;
 
 // Font Family
-$font-family: 'Montserrat', sans-serif;
+$font-family: 'Poppins', sans-serif;
+$font-lead: 'Roboto Slab', serif;
 
 // Images path
 $images-path: '/assets/images/';
@@ -10,10 +11,10 @@ $images-path: '/assets/images/';
 // Colors
 $primary: #82c341;
 $white: #ffffff;
-$grey-light: #eeeeee;
-$black-full: #000000;
-$black-shade: #1a1a1a;
-$black-dark: #111111;
-$black-border: #323232;
-$border-color: #505050;
-$footer-text: #747474;
+$black: #000000;
+$gray-1: #a6a6a6;
+$gray-2: #1d1d1d;
+$gray-3: #212425;
+
+$btn-bck: linear-gradient(93.74deg, #fa5252 0%, #dd2476 100%);
+$main-menu-bck-hover: linear-gradient(153.43deg, #fa5252 16.67%, #dd2476 100%);
