@@ -2,3 +2,9 @@
 body {
   padding: 200px 15% 60px;
 }
+.main-site {
+  display: flex;
+  .right-main {
+    margin-left: 40px;
+  }
+}
