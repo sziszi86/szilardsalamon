@@ -1,1 +1,7 @@
-<p>header works!</p>
+<header>
+  <nav>
+    <a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><i class="icon icon-about"></i>Rólam</a>
+    <a [routerLink]="['/resume']" routerLinkActive="active"><i class="icon icon-resume"></i>Karrier</a>
+    <a [routerLink]="['/portfolio']" routerLinkActive="active"><i class="icon icon-works"></i>Portfólió</a>
+  </nav>
+</header>

@@ -1,11 +1,11 @@
-<section class="slide-contact">
-  <img src="https://picsum.photos/240/" alt="Salamon Szilard" />
+<section [@slideInOut] class="slide-contact">
+  <img [src]="ImagePath" (click)="ImageClick()" alt="Salamon Szilard" />
   <div class="name-card">
     <h5>Salamon Szilárd</h5>
     <span>Sitebuilder / Frontend Developer</span>
     <div class="icons">
-      <a href=""><i class="icon icon-facebook"></i></a>
-      <a href=""><i class="icon icon-linkedin"></i></a>
+      <a href="https://www.facebook.com/salamon.szilard/" title="Facebook link" target="_blank"><i class="icon icon-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/salamon-szilard/" target="_blank" title="Linkedin"><i class="icon icon-linkedin"></i></a>
     </div>
   </div>
   <div class="contact-card">
@@ -13,7 +13,7 @@
       <i class="icon icon-phone"></i>
       <div class="data-wrapper">
         <span class="mini-title">Telefon</span>
-        <a href="tel:+36-30-657-3410"><span class="target">+36 30 657 3410</span></a>
+        <a href="tel:+36-30-657-3410" title="telefon"><span class="target">+36 30 657 3410</span></a>
       </div>
     </div>
     <hr />
@@ -21,7 +21,7 @@
       <i class="icon icon-email"></i>
       <div class="data-wrapper">
         <span class="mini-title">Email</span>
-        <a href="mailto:salamonszilard@gmail.com"><span class="target">salamonszilard@gmail.com</span></a>
+        <a href="mailto:salamonszilard@gmail.com" title="email"><span class="target">salamonszilard@gmail.com</span></a>
       </div>
     </div>
     <hr />
@@ -41,4 +41,7 @@
       </div>
     </div>
   </div>
+  <button title="Önéletrajz letöltése" onclick="window.open('../../../assets/salamon_szilard_cv.pdf')">
+    <i class="icon icon-download"></i> Önéletrajz letöltése
+  </button>
 </section>

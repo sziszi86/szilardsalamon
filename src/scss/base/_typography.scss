@@ -12,10 +12,11 @@ h1 {
     position: absolute;
     top: 51%;
     overflow: hidden;
-    width: 25%;
+    width: 200px;
     height: 2px;
     content: '\a0';
-    background: $primary;
+    background: $btn-bck;
+    margin-left: 30px;
   }
 }
 h2 {

@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
       <app-slide-contact></app-slide-contact>
       <section class="right-main">
         <app-header></app-header>
-        <router-outlet></router-outlet>
+        <main><router-outlet></router-outlet></main>
         <app-footer></app-footer>
       </section>
     </section>

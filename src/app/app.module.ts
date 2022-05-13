@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routing';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WorksComponent } from './modules/works/works.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, WorksComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule.forRoot(appRoutes, {

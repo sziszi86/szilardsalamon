@@ -1,5 +1,16 @@
-.button {
-  border-radius: 60px;
-  padding: 10px 20px;
+@import 'shared';
+button {
+  display: flex;
+  justify-content: center;
+  padding: 14px 30px;
+  background: $btn-bck;
+  border-radius: 40px;
+  color: $white;
+  font-weight: 500;
+  font-size: 18px;
   text-align: center;
+  transition: 0.5s opacity;
+  &:hover {
+    opacity: 0.85;
+  }
 }
