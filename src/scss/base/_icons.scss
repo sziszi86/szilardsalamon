@@ -33,4 +33,10 @@
   &.icon-contact {
     @include icon('icons/contact.svg');
   }
+  &.icon-design {
+    @include icon('icons/design.png');
+  }
+  &.icon-graphic {
+    @include icon('icons/graphic.svg');
+  }
 }

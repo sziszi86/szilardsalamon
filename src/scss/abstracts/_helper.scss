@@ -1,14 +1,31 @@
 @import 'shared';
 body {
-  padding: 200px 15% 60px;
-  background: url('../../assets/images/background.jpg') no-repeat top;
+  padding: 200px 10% 60px;
+  background: url('../../assets/images/background.jpg') top;
   background-size: cover;
+  background-repeat: repeat-y;
+  @include media-breakpoint-down(xl) {
+    padding: 50px 5% 50px;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 50px 25px;
+    background-repeat: repeat-y;
+  }
+  @include media-breakpoint-down(sm) {
+    padding: 15px;
+  }
 }
 .main-site {
   display: flex;
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
   .right-main {
     margin-left: 40px;
     width: 100%;
+    @include media-breakpoint-down(md) {
+      margin-left: 0;
+    }
     main {
       background: $black;
       border-radius: 20px;
@@ -16,6 +33,10 @@ body {
       padding: 60px;
       position: relative;
       bottom: 30px;
+      @include media-breakpoint-down(md) {
+        padding: 20px;
+        bottom: 0;
+      }
     }
   }
 }
