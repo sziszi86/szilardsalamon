@@ -1,0 +1,25 @@
+@import 'shared';
+.portfolio {
+  h1 {
+    margin-bottom: 30px;
+  }
+  .work {
+    border: 2px solid $gray-3;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    .company {
+      font-family: $font-family;
+      font-weight: 400;
+      font-size: 14px;
+      color: $white;
+    }
+  }
+}
