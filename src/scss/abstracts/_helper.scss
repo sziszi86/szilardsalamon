@@ -5,14 +5,13 @@ body {
   background-size: cover;
   background-repeat: repeat-y;
   @include media-breakpoint-down(xl) {
-    padding: 50px 5% 50px;
+    padding: 200px 5% 50px;
   }
   @include media-breakpoint-down(md) {
-    padding: 50px 25px;
+    padding: 150px 25px;
     background-repeat: repeat-y;
   }
   @include media-breakpoint-down(sm) {
-    padding: 15px;
   }
 }
 .main-site {
