@@ -1,1 +1,23 @@
-<p>about works!</p>
+<section class="about">
+  <h1>Karrier</h1>
+  <div class="row">
+    <div class="col-xl-6">
+      <span class="title"><i class="icon icon-education"></i> Tanulmányok</span>
+      <div *ngFor="let item of educations" class="container">
+        <span class="year">{{ item.year }}</span>
+        <span class="company">{{ item.company }}</span>
+        <p>{{ item.desc }}</p>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <span class="title"><i class="icon icon-education"></i> Munkahelyek</span>
+      <div *ngFor="let job of jobs" class="container">
+        <span class="year">{{ job.year }}</span>
+        <span class="company">{{ job.company }}</span>
+        <span class="titulus">{{ job.titulus }}</span>
+        <p>{{ job.desc }}</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</section>

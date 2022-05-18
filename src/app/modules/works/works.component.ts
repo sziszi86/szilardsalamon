@@ -8,24 +8,48 @@ import { Component } from '@angular/core';
 export class WorksComponent {
   works = [
     {
-      image: 'https://picsum.photos/310/266',
-      company: 'ARH Ikjjp;o.',
-      desc: 'Ez egy hosszabb duma is lehe, k,otne, de mi a francos mennykonek kene hogy az legyen',
+      image: '../../assets/images/works/dijlovasok.jpg',
+      company: 'Magyar Lovas Szövetség Dijlovagló Szakág',
+      desc: 'A Magyar Díjlovas sport legfontosabb eseményeit, híreit találhatjuk meg.',
+      slug: 'https://dijlovasok.hu/',
     },
     {
-      image: 'https://picsum.photos/310/266',
-      company: 'ARH Inc.',
-      desc: 'Ez egy hosszabb duma is lehetne, de mi a francos mennykonek kene hogy az legyen',
+      image: '../../assets/images/works/metropol.jpg',
+      company: 'Metropol.',
+      desc: 'A KESMA csoport több portálját csapatban sitebuldeltük le. Angular alapokra épül a legújabb változat.',
+      slug: 'https://metropol.hu/',
     },
     {
-      image: 'https://picsum.photos/310/266',
-      company: 'ARH Inc.',
-      desc: 'Ez egy hosszabb duma is lehetne, de mi a francos mennykonek kene hogy az legyen',
+      image: '../../assets/images/works/molgroup.jpg',
+      company: 'Mol Group',
+      desc: 'A cégcsoport éves beszámolóit és eredményeit közli a site.',
+      slug: 'https://molgroup.info/hu',
     },
     {
-      image: 'https://picsum.photos/310/266',
+      image: '../../assets/images/works/arh.jpg',
       company: 'ARH Inc.',
-      desc: 'Ez egy hosszabb duma is lehetne, de mi a francos mennykonek kene hogy az legyen',
+      desc: 'Hazánkban VÉDA rendszerként ismert rendszer gyártója többek között, de inkább nemketközi fronton sikeres a cég.',
+      slug: 'https://arh.hu/',
+    },
+    {
+      image: '../../assets/images/works/humda.jpg',
+      company: 'HUMDA Hungarian Motorsport and Green Mobility Development Agency.',
+      desc:
+        'Magyar Autósport szövetség weboldala már adott volt és' +
+        ' annak a mintájára csak a css segítségével át kellet szabnom az oldal a Green verzióra',
+      slug: 'https://humda.hu',
+    },
+    {
+      image: '../../assets/images/works/amethyst.jpg',
+      company: 'Amethyst Interior',
+      desc: 'Belsőépítészeti tervezés és kivitelezés lebonyolítása. Számos sikeres projekt van a háta mögött. Ezt hirdeti a site.',
+      slug: 'https://www.amethystinterior.hu/',
+    },
+    {
+      image: '../../assets/images/works/carmen.jpg',
+      company: 'Carmen Software',
+      desc: 'Rendszám olvasó szoftver parallaxos szemléltető microsite',
+      slug: 'https://www.carmen.hu/',
     },
   ];
 }

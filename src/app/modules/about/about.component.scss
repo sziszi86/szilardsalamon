@@ -1,0 +1,22 @@
+@import 'shared';
+.about {
+  .title {
+    color: $white;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    font-family: $font-family;
+  }
+  .container {
+    border: 2px solid $gray-3;
+    padding: 15px;
+
+    .year {
+      font-family: $font-family;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      color: $gray-1;
+    }
+  }
+}

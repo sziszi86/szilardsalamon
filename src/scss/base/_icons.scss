@@ -39,4 +39,10 @@
   &.icon-graphic {
     @include icon('icons/graphic.svg');
   }
+  &.icon-experience {
+    @include icon('icons/experience.svg');
+  }
+  &.icon-education {
+    @include icon('icons/education.svg');
+  }
 }
