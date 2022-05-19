@@ -6,10 +6,28 @@
     font-size: 26px;
     line-height: 39px;
     font-family: $font-family;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    .icon-education {
+      width: 38px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    .icon-experience {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
   }
   .container {
     border: 2px solid $gray-3;
     padding: 15px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
 
     .year {
       font-family: $font-family;
@@ -17,6 +35,54 @@
       font-size: 14px;
       line-height: 30px;
       color: $gray-1;
+    }
+    .company {
+      font-family: $font-family;
+      color: $white;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 400;
+    }
+  }
+  .skill-wrapper {
+    .skill-name {
+      color: $gray-1;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      font-family: $font-family;
+      margin-top: 30px;
+      display: block;
+    }
+  }
+  progress,
+  progress[role] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-size: auto;
+  }
+  progress {
+    height: 6px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 20px;
+    background-color: $gray-2;
+    &::-webkit-progress-bar {
+      background-color: $gray-2;
+      border-radius: 20px;
+    }
+    &::-webkit-progress-value {
+      background-color: $red-progress;
+      border-radius: 20px;
+    }
+
+    &::-moz-progress-bar {
+      background-color: $red-progress;
+      border-radius: 20px;
     }
   }
 }

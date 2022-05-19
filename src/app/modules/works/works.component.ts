@@ -15,7 +15,7 @@ export class WorksComponent {
     },
     {
       image: '../../assets/images/works/metropol.jpg',
-      company: 'Metropol.',
+      company: 'Metropol.hu',
       desc: 'A KESMA csoport több portálját csapatban sitebuldeltük le. Angular alapokra épül a legújabb változat.',
       slug: 'https://metropol.hu/',
     },
@@ -50,6 +50,48 @@ export class WorksComponent {
       company: 'Carmen Software',
       desc: 'Rendszám olvasó szoftver parallaxos szemléltető microsite',
       slug: 'https://www.carmen.hu/',
+    },
+    {
+      image: '../../assets/images/works/eskuvo.jpg',
+      company: 'Esküvő a Balatonon',
+      desc: 'Rezdenyvényszervező cég, mely a Balaton partján, szervezi meg az ügyfél esküvőjét.',
+      slug: 'https://eskuvoabalatonon.hu/',
+    },
+    {
+      image: '../../assets/images/works/investline.jpg',
+      company: 'Investline Holding Kft.',
+      desc: 'Cég fő profilja az ingatlan beruházás, generál-kivitelezés, ingatlan hasznosítás.',
+      slug: 'https://investline.hu/',
+    },
+    {
+      image: '../../assets/images/works/intellio.jpg',
+      company: 'Intellio Zrt.',
+      desc: 'Videókamerás rendszereket fejlesztenek. Stadionok, parkok és számos köztér az Ő kameráikkal üzemel.',
+      slug: 'https://intellio.hu/hu/',
+    },
+    {
+      image: '../../assets/images/works/ohegy.jpg',
+      company: 'Óhegy Étterem',
+      desc: 'Budapest 22. kerületében található ez az impozáns vendéglő.',
+      slug: 'http://ohegyetterem.hu/',
+    },
+    {
+      image: '../../assets/images/works/spiritofnature.jpg',
+      company: 'Spirit Of Nature',
+      desc: 'Prémium lótápot forgalmazó cég, mely főként külfölre szállít állateledelt.',
+      slug: 'http://www.spiritofnature.hu/',
+    },
+    {
+      image: '../../assets/images/works/palacepoker.jpg',
+      company: 'Palace Poker Szombathely',
+      desc: 'Nagyon igényes póker klubról van szó, amelyből hazánkban csak pár maradt. Az oldal nem mai darab, de még működik.',
+      slug: 'http://palace-poker.hu/',
+    },
+    {
+      image: '../../assets/images/works/toparthotel.jpg',
+      company: 'Tópart Hotel Balatonvilágos',
+      desc: 'Balaton parti szálloda. Az oldalt egy volt barátom segítségével hoztuk létre.',
+      slug: 'https://topart-hotel.hu/',
     },
   ];
 }

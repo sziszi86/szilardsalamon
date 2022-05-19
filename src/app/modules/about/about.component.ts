@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss'],
 })
 export class AboutComponent {
-  educations = [
+  educations: any = [
     {
       year: '2005 - 2007',
       company: 'Budapesti Kommunikációs Főiskola',
@@ -26,7 +26,7 @@ export class AboutComponent {
       desc: 'Gyerekkorom óta érdekelt a programozás, ezért választottam a programozói szakot/osztályt.',
     },
   ];
-  jobs = [
+  jobs: any = [
     {
       year: '2021 - 2022',
       company: 'TRENDENCY ONLINE ZRT. / MEDIAWORKS',
@@ -74,5 +74,15 @@ export class AboutComponent {
         'Akkoriban divatos Adobe Flash bannerek készítése mellett meglévő és új ' +
         'ügyfelek weboldalainak és karbantartása, létrehozása volt a feladatom.',
     },
+  ];
+  skills: any = [
+    { name: 'HTML5', percent: 89 },
+    { name: 'CSS3 / SASS', percent: 91 },
+    { name: 'Bootstrap', percent: 87 },
+    { name: 'Angular', percent: 66 },
+    { name: 'Javascript', percent: 58 },
+    { name: 'Jquery', percent: 50 },
+    { name: 'Wordpress', percent: 60 },
+    { name: 'Joomla!', percent: 76 },
   ];
 }
