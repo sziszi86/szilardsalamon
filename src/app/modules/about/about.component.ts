@@ -34,7 +34,7 @@ export class AboutComponent {
       desc:
         'A Mediaworks azt a célt tűzte ki, hogy a legtöbb portált átszervezi Wordpressről Angular alapú egyedi CMS-el ellátott oldallá. ' +
         'Mediaworks a Trendencyt bízta meg a feladattal így átkerültem oda, ' +
-        'hiszen a munka java ott történt. Itt végreSitebuilder lettem, ' +
+        'hiszen a munka java ott történt. Itt végre Sitebuilder lettem, ' +
         'mert abban vagyok otthon igazán.',
     },
     {
@@ -72,7 +72,7 @@ export class AboutComponent {
       titulus: 'Webfejlesztő',
       desc:
         'Akkoriban divatos Adobe Flash bannerek készítése mellett meglévő és új ' +
-        'ügyfelek weboldalainak és karbantartása, létrehozása volt a feladatom.',
+        'ügyfelek weboldalainak karbantartása, létrehozása volt a feladatom.',
     },
   ];
   skills: any = [

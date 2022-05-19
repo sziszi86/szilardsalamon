@@ -8,6 +8,10 @@ h1 {
   color: $white;
   position: relative;
   z-index: 1;
+  @include media-breakpoint-down(sm) {
+    font-size: 32px;
+    line-height: normal;
+  }
   &:after {
     position: absolute;
     top: 51%;
@@ -17,6 +21,9 @@ h1 {
     content: '\a0';
     background: $btn-bck;
     margin-left: 30px;
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
   }
 }
 h2 {
@@ -25,6 +32,10 @@ h2 {
   font-weight: 500;
   font-size: 28px;
   line-height: 42px;
+  @include media-breakpoint-down(sm) {
+    font-size: 24px;
+    line-height: normal;
+  }
 }
 h3 {
   font-family: $font-family;
@@ -32,6 +43,10 @@ h3 {
   font-size: 22px;
   line-height: 33px;
   font-weight: 500;
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 h5 {
   font-family: $font-lead;
@@ -39,6 +54,10 @@ h5 {
   font-weight: 500;
   font-size: 26px;
   line-height: 34px;
+  @include media-breakpoint-down(sm) {
+    font-size: 23px;
+    line-height: normal;
+  }
 }
 p {
   color: $gray-1;
@@ -46,4 +65,8 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+    line-height: normal;
+  }
 }

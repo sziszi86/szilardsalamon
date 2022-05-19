@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkangular_skeleton=self.webpackChunkangular_skeleton||[]).push([[592],{4466:(s,u,a)=>{a.d(u,{m:()=>l});var _=a(6362),n=a(2008);let l=(()=>{class e{}return e.\u0275fac=function(r){return new(r||e)},e.\u0275mod=n.oAB({type:e}),e.\u0275inj=n.cJS({imports:[[_.ez]]}),e})()}}]);
+//# sourceMappingURL=common.30ed3b096021460d.js.map
