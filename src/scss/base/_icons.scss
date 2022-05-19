@@ -33,4 +33,16 @@
   &.icon-contact {
     @include icon('icons/contact.svg');
   }
+  &.icon-design {
+    @include icon('icons/design.png');
+  }
+  &.icon-graphic {
+    @include icon('icons/graphic.svg');
+  }
+  &.icon-experience {
+    @include icon('icons/experience.svg');
+  }
+  &.icon-education {
+    @include icon('icons/education.svg');
+  }
 }

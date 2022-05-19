@@ -1,1 +1,16 @@
-<p>works works!</p>
+<section class="portfolio">
+  <h1>Portfólió</h1>
+  <div class="row">
+    <ng-container *ngFor="let item of works">
+      <div class="col-xl-6">
+        <a [href]="item.slug" target="_blank">
+          <div class="work">
+            <img [src]="item.image" [alt]="item.desc" />
+            <span class="company">{{ item.company }}</span>
+            <p>{{ item.desc }}</p>
+          </div>
+        </a>
+      </div>
+    </ng-container>
+  </div>
+</section>

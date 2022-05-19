@@ -5,11 +5,19 @@ header {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  @include media-breakpoint-down(md) {
+    bottom: 0;
+    justify-content: center;
+    margin: 30px 0;
+  }
   nav {
     background-color: $black;
     border-radius: 16px;
     padding: 30px;
     display: flex;
+    @include media-breakpoint-down(sm) {
+      padding: 15px;
+    }
 
     a {
       display: flex;
@@ -26,6 +34,12 @@ header {
       width: 88px;
       height: 84px;
       transition: 0.4s all;
+      @include media-breakpoint-down(sm) {
+        width: 70px;
+        height: 66px;
+        margin: 0 7px;
+        font-size: 13px;
+      }
       &:first-of-type {
         margin-left: 0;
       }

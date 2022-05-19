@@ -1,7 +1,5 @@
 import { Routes } from '@angular/router';
 import { Error404Component } from './core/components/error-pages/404/404.component';
-import { AboutComponent } from './modules/about/about.component';
-import { WorksComponent } from './modules/works/works.component';
 
 export const appRoutes: Routes = [
   {
@@ -18,11 +16,13 @@ export const appRoutes: Routes = [
       },
       {
         path: 'resume',
-        component: AboutComponent,
+        pathMatch: 'full',
+        loadChildren: () => import('./modules/about/about.module').then((m) => m.AboutModule),
       },
       {
         path: 'portfolio',
-        component: WorksComponent,
+        pathMatch: 'full',
+        loadChildren: () => import('./modules/works/works.module').then((m) => m.WorksModule),
       },
       {
         path: '**',
