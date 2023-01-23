@@ -6,6 +6,9 @@
   &.icon-linkedin {
     @include icon('icons/linkedin.svg');
   }
+  &.icon-github {
+    @include icon('icons/github.svg');
+  }
   &.icon-phone {
     @include icon('icons/phone.svg');
   }

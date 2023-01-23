@@ -5,7 +5,7 @@
       <div class="col-xl-6">
         <a [href]="item.slug" target="_blank">
           <div class="work">
-            <img [src]="item.image" [alt]="item.desc" />
+            <img [src]="item.image" [alt]="item.desc" loading="lazy" />
             <span class="company">{{ item.company }}</span>
             <p>{{ item.desc }}</p>
           </div>
