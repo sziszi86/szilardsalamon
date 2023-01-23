@@ -77,9 +77,10 @@ export class AboutComponent {
   ];
   skills: any = [
     { name: 'HTML5', percent: 89 },
-    { name: 'CSS3 / SASS', percent: 91 },
+    { name: 'CSS3 / SASS / Tailwind', percent: 91 },
     { name: 'Bootstrap', percent: 87 },
-    { name: 'Angular', percent: 66 },
+    { name: 'Next.js', percent: 60 },
+    { name: 'Angular', percent: 20 },
     { name: 'Javascript', percent: 58 },
     { name: 'Jquery', percent: 50 },
     { name: 'Wordpress', percent: 60 },

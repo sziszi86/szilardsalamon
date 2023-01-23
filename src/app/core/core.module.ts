@@ -6,11 +6,12 @@ import { SlideContactComponent } from './components/slide-contact/slide-contact.
 import { RouterModule } from '@angular/router';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
+import { Error404Component } from './components/error-pages/404/404.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, SlideContactComponent],
+  declarations: [HeaderComponent, FooterComponent, SlideContactComponent, Error404Component],
   imports: [CommonModule, RouterModule, MatDialogModule, MatButtonModule],
-  exports: [HeaderComponent, FooterComponent, SlideContactComponent],
+  exports: [HeaderComponent, FooterComponent, SlideContactComponent, Error404Component],
 })
 export class CoreModule {
   constructor(@Optional() @SkipSelf() coreModule: CoreModule) {
